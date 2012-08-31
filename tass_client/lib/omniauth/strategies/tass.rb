@@ -1,7 +1,7 @@
 module OmniAuth
   module Strategies
-    class Todo < OmniAuth::Strategies::OAuth2
-      option :name, :todo
+    class Tass < OmniAuth::Strategies::OAuth2
+      option :name, :tass
 
       option :client_options, {
         site: "http://localhost:3000",
