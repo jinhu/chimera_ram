@@ -1,0 +1,27 @@
+defaults: &defaults
+  encoding: utf8
+  adapter: mysql2
+  reconnect: false
+  pool: 5
+  username: root
+  password:
+  socket: <%= ["/opt/local/var/run/mysql5/mysqld.sock","/tmp/mysqld.sock","/tmp/mysql.sock","/var/run/mysqld/mysqld.sock","/var/lib/mysql/mysql.sock"].detect{|socket| File.exist?(socket) }%>
+
+development:
+  database: data_models_development
+  <<: *defaults
+
+# Warning: The database defined as 'test' will be erased and
+# re-generated from your development database when you run 'rake'.
+# Do not set this db to the same as development or production.
+test: &test
+  database: data_models_test<%= ENV['TEST_ENV_NUMBER'] %>
+  <<: *defaults
+
+cucumber:
+  <<: *test
+
+production:
+  database: data_models
+  <<: *defaults
+

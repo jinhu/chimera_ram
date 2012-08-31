@@ -18,7 +18,6 @@ Doorkeeper.configure do
     # to call them on routes object eg.
     # routes.new_admin_session_path
     session[:user_id] == 1 || redirect_to(routes.login_url(return_to: request.fullpath))
-    true
   end
 
   # Access token expiration time (default 2 hours)

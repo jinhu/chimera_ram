@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tass_client/lib/omniauth/strategies/todo.rb&apos; to &apos;tass.rb&apos;" description="Rename resource &apos;todo.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="lib/omniauth/strategies/todo.rb" name="tass.rb" stamp="1346447586824" updateReferences="true"/>
+</session>

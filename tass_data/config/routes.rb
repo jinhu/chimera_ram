@@ -1,4 +1,4 @@
-TassData::Application.routes.draw do
+Todo::Application.routes.draw do
   mount Doorkeeper::Engine => '/oauth'
 
   namespace :api, defaults: {format: 'json'} do
