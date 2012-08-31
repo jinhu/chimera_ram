@@ -66,3 +66,18 @@ java.lang.UnsupportedOperationException: Not supported yet.
 	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
 	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:109)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.ruby.core 4 0 2012-09-01 00:30:35.234
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  Expected field decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2012-09-01 00:30:35.287
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  Expected block on top of stack, but was: sum(sign)
+
+!ENTRY com.aptana.ruby.core 4 0 2012-09-01 00:30:35.295
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  Expected method decl on top of stack, but was: Duration
+
+!ENTRY com.aptana.ruby.core 4 0 2012-09-01 00:30:35.295
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  Expected type decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2012-09-01 00:30:35.296
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  AST stack was empty upon exiting script, but should have contained the script.
