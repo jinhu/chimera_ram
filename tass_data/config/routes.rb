@@ -1,4 +1,6 @@
 TassData::Application.routes.draw do
+  resources :profiles do as_routes end
+
   mount Doorkeeper::Engine => '/oauth'
 
   namespace :api, defaults: {format: 'json'} do
