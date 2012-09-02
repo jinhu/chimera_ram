@@ -1,10 +1,17 @@
+AbstractTextEditor.Color.Background=20,20,20
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground=248,248,248
+AbstractTextEditor.Color.Foreground.SystemDefault=false
 AbstractTextEditor.Color.SelectionBackground=60,64,67
 AbstractTextEditor.Color.SelectionForeground=248,248,248
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
 content_assist_number_of_computers=18
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
+currentLineColor=27,27,27
 eclipse.preferences.version=1
 fontPropagated=true
+java_annotation=249,238,152
 java_annotation_bold=false
 java_annotation_italic=false
 java_annotation_strikethrough=false

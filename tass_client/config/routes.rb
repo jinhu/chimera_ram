@@ -1,4 +1,4 @@
-OauthClient::Application.routes.draw do
+TassRails::Application.routes.draw do
   match '/auth/:provider/callback', to: 'sessions#create'
   match '/signout', to: 'sessions#destroy', as: 'signout'
 
