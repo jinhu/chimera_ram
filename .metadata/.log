@@ -1610,3 +1610,30 @@ org.eclipse.ui.PartInitException: Could not create view: com.android.ide.eclipse
 
 !ENTRY org.eclipse.ui 4 4 2012-09-02 18:12:45.581
 !MESSAGE Invalid preference page path: Logging
+
+!ENTRY org.eclipse.rse.ui 4 0 2012-09-02 18:55:07.041
+!MESSAGE RSEG1066U: SUB#0:timeout: socket is not established
+!STACK 0
+com.jcraft.jsch.JSchException: timeout: socket is not established
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.Session.connect(Session.java:186)
+	at org.eclipse.rse.internal.connectorservice.ssh.SshConnectorService.internalConnect(SshConnectorService.java:143)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:412)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:243)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:128)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:1970)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-09-03 09:02:01.858 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jinhu/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/jinhu/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-09-03 09:02:23.173
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2012-09-03 09:03:39.021
+!MESSAGE Invalid preference page path: Logging

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<servers>
-<server host="0.0.0.0" port="3000" project="/Users/jinhu/workspace/chimeras/ram/tass_data" type="org.radrails.rails.railsServer">
-<name>tass_data</name>
-</server>
-<server host="0.0.0.0" port="3001" project="/Users/jinhu/workspace/chimeras/ram/tass_client" type="org.radrails.rails.railsServer">
-<name>tass_client</name>
-</server>
-</servers>

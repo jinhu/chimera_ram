@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.aptana.feature.rcp:3.2.0.201206251729-7n7jFDBFFaDpxVrpQKqalz0uIWlY"/>
+		<item value="com.aptana.feature.studio:3.2.0.201206251645-7E7H-7ICHHFcJULNAORRIBXn1X6f"/>
+		<item value="com.aptana.feature:3.2.0.1340662960-BO7O8JBe_j9LN98z0J1DC44EXssM"/>
+		<item value="com.aptana.php.feature:3.2.0.201206251628-7D-27CEFLJ9MOIK"/>
+		<item value="org.eclipse.help:1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx"/>
+		<item value="org.eclipse.platform:3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q"/>
+		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+		<item value="org.eclipse.rse.core.source:2.0.3.v20080225-7P-7IEB7sQRz0SoiTb"/>
+		<item value="org.eclipse.rse.core:2.0.3.v20080225-7P-7IEB7sQRz0SoiTb"/>
+		<item value="org.eclipse.rse.dstore.source:2.0.1.v20070926-7F-4DUUEF6FALu"/>
+		<item value="org.eclipse.rse.ftp.source:2.0.3.v20080225-7737D_kE77a7PDI4I7B"/>
+		<item value="org.eclipse.rse.local.source:2.0.1.v20070705-7_-2AgI99h9l9l"/>
+		<item value="org.eclipse.rse.remotecdt:2.0.1.v20070926-4-18s733G3K5H"/>
+		<item value="org.eclipse.rse.sdk:2.0.3.v20080225-7J-7EE7ZoHQURqoFwQQpz0MuGUHD"/>
+		<item value="org.eclipse.rse.ssh.source:2.0.3.v20080225-78-6_kE77a7OAU"/>
+		<item value="org.eclipse.rse.telnet.source:2.0.1.v20070704-637AAgI99h9mBW4I7B"/>
+		<item value="org.eclipse.rse.tests:2.0.1.v20070926-6-19oA55P5SAG"/>
+		<item value="org.eclipse.rse:2.0.3.v20080225-7D-7A8mJIoa9WAvksISSE8yz-C"/>
+		<item value="org.eclipse.tm.terminal.serial:1.0.2.v20071030-1-17w31182141"/>
+		<item value="org.eclipse.tm.terminal.ssh:1.0.3.v20080225-1-27w31191336"/>
+		<item value="org.eclipse.tm.terminal.telnet:1.0.3.v20080225-1-27w31191336"/>
+		<item value="org.eclipse.tm.terminal.view:1.0.3.v20080225-1-27w31191336"/>
+		<item value="org.eclipse.tm.terminal:1.0.3.v20080225-1-27w31191336"/>
+		<item value="org.python.pydev.django_templates.feature:2.6.0.2012062121"/>
+		<item value="org.python.pydev.feature:2.6.0.2012062121"/>
+		<item value="org.radrails.rails:3.2.0.201206251640-7e-7Q7f56_5-LETI"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>

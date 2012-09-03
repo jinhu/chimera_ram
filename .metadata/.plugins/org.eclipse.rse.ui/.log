@@ -1,0 +1,13 @@
+Sun Sep 02 18:55:07 CEST 2012
+ERROR org.eclipse.rse.ui  RSEG1066U: SUB#0:timeout: socket is not established
+com.jcraft.jsch.JSchException: timeout: socket is not established
+	at com.jcraft.jsch.Util.createSocket(Util.java:386)
+	at com.jcraft.jsch.Session.connect(Session.java:186)
+	at org.eclipse.rse.internal.connectorservice.ssh.SshConnectorService.internalConnect(SshConnectorService.java:143)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:412)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:243)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:128)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:1970)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+--------------------------------------------

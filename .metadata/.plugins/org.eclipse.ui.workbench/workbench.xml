@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
-<window height="805" width="1200" x="0" y="22">
+<window height="785" width="1200" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="160"/>
+<itemSize x="618"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="136" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="106" y="22"/>
 <coolItem id="com.google.gdt.eclipse.suite.GDTPulldownToolbar" itemType="typeToolBarContribution" x="40" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="54" y="22"/>
@@ -18,12 +18,12 @@
 <coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.ruby" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.yaml" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="150" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="144" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="68" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -42,37 +42,35 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="app.html" partName="app.html" path="/Users/jinhu/workspace/chimeras/ram/tass_android/assets/www/app.html" title="app.html" tooltip="tass_android/assets/www/app.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tass_android/assets/www/app.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="338" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="tass_android Manifest" path="/Users/jinhu/workspace/chimeras/ram/tass_android/AndroidManifest.xml" title="tass_android Manifest" tooltip="tass_android/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tass_android/AndroidManifest.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="user_login.feature" partName="user_login.feature" path="/Users/jinhu/workspace/chimeras/ram/tass_data/features/user_login.feature" title="user_login.feature" tooltip="tass_data/features/user_login.feature" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tass_data/features/user_login.feature"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" partName="Remote Scratchpad"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
+<expanded>&#x0A;<element path="Conn///jins-MacBook-Pro.10.0.3.15"/>
+<element path="Subs///jins-MacBook-Pro.10.0.3.15///ssh.files=Sftp Files"/>
+<element path="FRef///jins-MacBook-Pro.10.0.3.15///ssh.files=Sftp Files///jins-MacBook-Pro___jins-MacBook-Pro:ssh.files=My Home"/>
+</expanded>
+<selection>&#x0A;<element path="Conn///jins-MacBook-Pro.10.0.3.15"/>
+</selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -84,11 +82,19 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="org.eclipse.rse.ui.view.systemTableView" partName="Remote System Details">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="org.eclipse.rse.ui.view.teamView" partName="Team"/>
+<view id="com.aptana.webserver.ui.view" partName="Servers">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.manifest.ManifestEditor" activePerspective="&lt;Web&gt;">
+<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="&lt;Web&gt;">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="com.aptana.ui.WebPerspective" id="&lt;Web&gt;" label="&lt;Web&gt;"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -103,15 +109,13 @@
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
-<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
-<alwaysOnActionSet id="adt.actionSet.wizards"/>
-<alwaysOnActionSet id="adt.actionSet.refactorings"/>
-<alwaysOnActionSet id="adt.actionSet.avdManager"/>
-<alwaysOnActionSet id="adt.actionSet.lint"/>
-<alwaysOnActionSet id="com.google.gdt.eclipse.core.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
 <show_view_action id="com.aptana.browser.views.webbrowser"/>
 <show_view_action id="com.aptana.explorer.view"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
@@ -138,8 +142,7 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="com.aptana.webserver.ui.view"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -162,15 +165,15 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2001682" ratioLeft="238" ratioRight="951" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.62343097" ratioLeft="447" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="com.aptana.webserver.ui.view" label="Servers"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
-<page content="com.aptana.webserver.ui.view" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal:db" label="LabelNotFound"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
@@ -178,7 +181,6 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -195,21 +197,75 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.rse.internal.ui.view.SystemPerspectiveLayout" id="org.eclipse.rse.ui.view.SystemPerspective" label="Remote System Explorer"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemTableView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<perspective_action id="org.eclipse.rse.ui.view.SystemPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.rse.ui.view.systemView"/>
+<view id="org.eclipse.rse.ui.view.teamView"/>
+<view id="org.eclipse.rse.ui.view.systemTableView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.rse.ui.view.NavFolder">&#x0A;<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
+<page content="org.eclipse.rse.ui.view.teamView" label="Team"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="894" ratioRight="298" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="298" ratioRight="894" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder"/>
+<info folder="true" part="org.eclipse.rse.ui.view.MiscFolder" ratio="0.6" ratioLeft="420" ratioRight="280" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.rse.ui.view.systemTableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.rse.ui.view.systemTableView" label="Remote System Details"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.OutlineFolder" ratio="0.7997763" ratioLeft="715" ratioRight="179" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.PropertiesFolder" ratio="0.75" ratioLeft="525" ratioRight="175" relationship="4" relative="org.eclipse.rse.ui.view.NavFolder">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" label="Remote Scratchpad"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/lib/omniauth/strategies/tass.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/initializers/omniauth.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/db/seeds.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.yaml" path="/tass_data/config/database.yml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/Gemfile"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/initializers/omniauth.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.erb.html" path="/tass_client/app/views/tasks/index.html.erb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/environments/development.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/environments/test.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/initializers/secret_token.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/initializers/session_store.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/application.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/environment.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_data/config/routes.rb"/>
@@ -230,151 +286,166 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tass_android/src/com/tass/android/MainActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/tass_android/assets/www/app.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/tass_android/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/app/controllers/tasks_controller.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/app/controllers/application_controller.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/application.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.yaml" path="/tass_client/config/database.yml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/environments/development.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/environments/production.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/environments/test.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/initializers/secret_token.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/initializers/session_store.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/application.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/environment.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config/routes.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/config.ru"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/tass_client/Rakefile"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/tass_data/features/user_login.feature"/>
 </editors>
-<item historyLabel="omniauth.rb" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="seeds.rb" index="2">
-<position info="not_deleted" x="135" y="0"/>
-</item>
-<item historyLabel="database.yml" index="3">
-<position info="not_deleted" x="701" y="0"/>
-</item>
-<item historyLabel="Gemfile" index="4">
-<position/>
-</item>
-<item historyLabel="database.yml" index="3">
-<position info="not_deleted" x="304" y="0"/>
-</item>
-<item historyLabel="Gemfile" index="4">
-<position info="not_deleted" x="152" y="0"/>
-</item>
-<item historyLabel="omniauth.rb" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="omniauth.rb" index="5">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="6">
-<position info="not_deleted" x="503" y="4"/>
-</item>
-<item historyLabel="omniauth.rb" index="5">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="tass.rb" index="0">
-<position info="not_deleted" x="50" y="0"/>
-</item>
-<item historyLabel="development.rb" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="test.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="secret_token.rb" index="9">
-<position info="not_deleted" x="332" y="0"/>
-</item>
-<item historyLabel="session_store.rb" index="10">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="application.rb" index="11">
-<position info="not_deleted" x="373" y="0"/>
-</item>
-<item historyLabel="environment.rb" index="12">
-<position info="not_deleted" x="118" y="8"/>
-</item>
-<item historyLabel="routes.rb" index="13">
+<item historyLabel="routes.rb" index="3">
 <position info="not_deleted" x="8" y="0"/>
 </item>
-<item historyLabel="config.ru" index="14">
+<item historyLabel="config.ru" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tass.rb" index="15">
+<item historyLabel="tass.rb" index="5">
 <position info="not_deleted" x="107" y="0"/>
 </item>
-<item historyLabel="session_store.rb" index="16">
+<item historyLabel="session_store.rb" index="6">
 <position info="not_deleted" x="135" y="0"/>
 </item>
-<item historyLabel="environment.rb" index="12">
+<item historyLabel="environment.rb" index="2">
 <position info="not_deleted" x="118" y="8"/>
 </item>
-<item historyLabel="development.rb" index="7">
+<item historyLabel="development.rb" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="application.rb" index="11">
+<item historyLabel="application.rb" index="1">
 <position info="not_deleted" x="373" y="0"/>
 </item>
-<item historyLabel="environment.rb" index="12">
+<item historyLabel="environment.rb" index="2">
 <position info="not_deleted" x="118" y="8"/>
 </item>
-<item historyLabel="Gemfile" index="17">
+<item historyLabel="Gemfile" index="7">
 <position info="not_deleted" x="656" y="0"/>
 </item>
-<item historyLabel="application.css" index="18">
+<item historyLabel="application.css" index="8">
 <position info="not_deleted" x="543" y="0"/>
 </item>
-<item historyLabel="application.js" index="19">
+<item historyLabel="application.js" index="9">
 <position info="not_deleted" x="668" y="0"/>
 </item>
-<item historyLabel="user.rb" index="20">
+<item historyLabel="user.rb" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="base_controller.rb" index="21">
+<item historyLabel="base_controller.rb" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tasks_controller.rb" index="22">
+<item historyLabel="tasks_controller.rb" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="users_controller.rb" index="23">
+<item historyLabel="users_controller.rb" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tasks_controller.rb" index="22">
+<item historyLabel="tasks_controller.rb" index="12">
 <position info="not_deleted" x="166" y="5"/>
 </item>
-<item historyLabel="users_controller.rb" index="23">
+<item historyLabel="users_controller.rb" index="13">
 <position/>
 </item>
-<item historyLabel="base_controller.rb" index="21">
+<item historyLabel="base_controller.rb" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="profiles_controller.rb" index="24">
+<item historyLabel="profiles_controller.rb" index="14">
 <position info="not_deleted" x="300" y="0"/>
 </item>
-<item historyLabel="tasks_controller.rb" index="22">
+<item historyLabel="tasks_controller.rb" index="12">
 <position info="not_deleted" x="0" y="290"/>
 </item>
-<item historyLabel="profiles_controller.rb" index="24">
+<item historyLabel="profiles_controller.rb" index="14">
 <position info="not_deleted" x="269" y="0"/>
 </item>
-<item historyLabel="profile.rb" index="25">
+<item historyLabel="profile.rb" index="15">
 <position info="not_deleted" x="77" y="0"/>
 </item>
-<item historyLabel="user.rb" index="20">
+<item historyLabel="user.rb" index="10">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="profile.rb" index="25">
+<item historyLabel="profile.rb" index="15">
 <position info="not_deleted" x="77" y="0"/>
 </item>
-<item historyLabel="app.html" index="26">
+<item historyLabel="app.html" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="27"/>
-<item historyLabel="MainActivity.java" index="28">
+<item historyLabel="activity_main.xml" index="17"/>
+<item historyLabel="MainActivity.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="28">
+<item historyLabel="MainActivity.java" index="18">
 <position info="not_deleted" x="54" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="28">
+<item historyLabel="MainActivity.java" index="18">
 <position info="not_deleted" x="417" y="0"/>
 </item>
-<item historyLabel="app.html" index="26"/>
-<item historyLabel="MainActivity.java" index="28">
+<item historyLabel="app.html" index="16"/>
+<item historyLabel="MainActivity.java" index="18">
 <position info="not_deleted" x="417" y="0"/>
 </item>
-<item historyLabel="app.html" index="29">
+<item historyLabel="app.html" index="19">
 <position info="not_deleted" x="338" y="0"/>
 </item>
-<item active="true" historyLabel="tass_android Manifest" index="30"/>
+<item historyLabel="tass_android Manifest" index="20"/>
+<item historyLabel="tasks_controller.rb" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="application_controller.rb" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="application.rb" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="database.yml" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="development.rb" index="25">
+<position info="not_deleted" x="0" y="9"/>
+</item>
+<item historyLabel="production.rb" index="26">
+<position info="not_deleted" x="9" y="0"/>
+</item>
+<item historyLabel="test.rb" index="27">
+<position info="not_deleted" x="9" y="0"/>
+</item>
+<item historyLabel="secret_token.rb" index="28">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="database.yml" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="session_store.rb" index="29">
+<position info="not_deleted" x="366" y="0"/>
+</item>
+<item historyLabel="application.rb" index="30">
+<position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="environment.rb" index="31">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="routes.rb" index="32">
+<position info="not_deleted" x="9" y="0"/>
+</item>
+<item historyLabel="config.ru" index="33">
+<position info="not_deleted" x="145" y="0"/>
+</item>
+<item historyLabel="Rakefile" index="34">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="session_store.rb" index="29">
+<position info="not_deleted" x="366" y="0"/>
+</item>
+<item active="true" historyLabel="user_login.feature" index="35">
+<position info="not_deleted" x="477" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -383,17 +454,48 @@
 <trimLayout>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
-<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="com.google.gdt.eclipse.login.status.trim"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="user_login.feature" tooltip="tass_data/features/user_login.feature">
+<persistable path="/tass_data/features/user_login.feature"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="environment.rb" tooltip="tass_client/config/environment.rb">
+<persistable path="/tass_client/config/environment.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="application.rb" tooltip="tass_client/config/application.rb">
+<persistable path="/tass_client/config/application.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="session_store.rb" tooltip="tass_client/config/initializers/session_store.rb">
+<persistable path="/tass_client/config/initializers/session_store.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="secret_token.rb" tooltip="tass_client/config/initializers/secret_token.rb">
+<persistable path="/tass_client/config/initializers/secret_token.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="test.rb" tooltip="tass_client/config/environments/test.rb">
+<persistable path="/tass_client/config/environments/test.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="production.rb" tooltip="tass_client/config/environments/production.rb">
+<persistable path="/tass_client/config/environments/production.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="development.rb" tooltip="tass_client/config/environments/development.rb">
+<persistable path="/tass_client/config/environments/development.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.yaml" name="database.yml" tooltip="tass_client/config/database.yml">
+<persistable path="/tass_client/config/database.yml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="tass_client/app/controllers/application_controller.rb">
+<persistable path="/tass_client/app/controllers/application_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="tasks_controller.rb" tooltip="tass_client/app/controllers/tasks_controller.rb">
+<persistable path="/tass_client/app/controllers/tasks_controller.rb"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="tass_android/AndroidManifest.xml">
 <persistable path="/tass_android/AndroidManifest.xml"/>
 </file>
@@ -405,39 +507,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="tass_android/res/layout/activity_main.xml">
 <persistable path="/tass_android/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="app.html" tooltip="tass_client/public/app.html">
-<persistable path="/tass_client/public/app.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="profile.rb" tooltip="tass_data/app/models/profile.rb">
-<persistable path="/tass_data/app/models/profile.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="tasks_controller.rb" tooltip="tass_data/app/controllers/api/v1/tasks_controller.rb">
-<persistable path="/tass_data/app/controllers/api/v1/tasks_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="profiles_controller.rb" tooltip="tass_data/app/controllers/api/v1/profiles_controller.rb">
-<persistable path="/tass_data/app/controllers/api/v1/profiles_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="users_controller.rb" tooltip="tass_data/app/controllers/api/v1/users_controller.rb">
-<persistable path="/tass_data/app/controllers/api/v1/users_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="base_controller.rb" tooltip="tass_data/app/controllers/api/v1/base_controller.rb">
-<persistable path="/tass_data/app/controllers/api/v1/base_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="user.rb" tooltip="tass_data/app/models/user.rb">
-<persistable path="/tass_data/app/models/user.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="application.js" tooltip="tass_data/app/assets/javascripts/application.js">
-<persistable path="/tass_data/app/assets/javascripts/application.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="application.css" tooltip="tass_data/app/assets/stylesheets/application.css">
-<persistable path="/tass_data/app/assets/stylesheets/application.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="tass_data/Gemfile">
-<persistable path="/tass_data/Gemfile"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="development.rb" tooltip="tass_data/config/environments/development.rb">
-<persistable path="/tass_data/config/environments/development.rb"/>
 </file>
 </mruList>
 </workbench>
