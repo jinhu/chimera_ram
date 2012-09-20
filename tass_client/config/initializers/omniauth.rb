@@ -1,5 +1,5 @@
 require File.expand_path('lib/omniauth/strategies/tass', Rails.root)
 
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :tass, "1665e0f422849f1af201b227ba0bc5f8c3e7e72b2e7f2ce2a469af33344eee07", "2ffae68099315ffc0a2fc91b92919b56bdc33a4e309f6e83ea5b6c7a70e67fea"
+  provider :tass, "320e16209d7d0682b9c981df931746b9e57781561df1c3833cae6259dd3ee5ca", "483ce48aa28389dcb0448f16e6ac717cecd2a66be1835797742dc17a4cb0be79"
 end

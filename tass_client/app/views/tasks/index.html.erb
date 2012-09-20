@@ -1,4 +1,4 @@
-<h1>To Do List</h1>
+<h1>tass application server</h1>
 
 <% if current_user %>
   <%= form_tag tasks_path do %>
@@ -19,6 +19,6 @@
 <% else %>
   <p><strong>Currently not signed in.</strong></p>
   <p>
-    <%= link_to "Sign in through To Do List", "/auth/todo" %>
+    <%= link_to "Sign in through To Do List", "/auth/tass" %>
   </p>
 <% end %>
