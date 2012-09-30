@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;tass_data/features/Gemfile&apos; to &apos;user_login&apos;" description="Rename resource &apos;Gemfile&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="features/Gemfile" name="user_login" stamp="1346604265389" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;tass_data/features/user_login&apos; to &apos;user_login.feature&apos;" description="Rename resource &apos;user_login&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="features/user_login" name="user_login.feature" stamp="1346604315540" updateReferences="true"/>
-</session>

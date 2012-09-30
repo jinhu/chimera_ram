@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;tass_data/features/features&apos;" deleteContents="false" description="Delete resource &apos;tass_data/features/features&apos;" element1="/tass_data/features/features" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1346604242709"/>&#x0A;<refactoring comment="Delete resource &apos;tass_client/Gemfile.lock&apos;" deleteContents="false" description="Delete resource &apos;tass_client/Gemfile.lock&apos;" element1="/tass_client/Gemfile.lock" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1346884182667"/>
-</session>

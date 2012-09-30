@@ -1,0 +1,5 @@
+.svn.DS_Storebuild
+.metadata
+.c9revisions
+*/log/*.log
+*/tmp/*androidapp/bin/*

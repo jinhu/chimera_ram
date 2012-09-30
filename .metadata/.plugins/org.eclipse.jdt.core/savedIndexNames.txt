@@ -1,1 +1,0 @@
-INDEX VERSION 1.126+/Users/jinhu/workspace/github/chimera_ram/.metadata/.plugins/org.eclipse.jdt.core
