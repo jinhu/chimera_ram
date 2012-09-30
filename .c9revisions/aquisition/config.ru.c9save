@@ -1,0 +1,1 @@
+{"ts":1348964958118,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# This file is used by Rack-based servers to start the application.\n\nrequire ::File.expand_path('../config/environment',  __FILE__)\nrun Aquisition::Application\n"]],"start1":0,"start2":0,"length1":0,"length2":160}]],"length":160}

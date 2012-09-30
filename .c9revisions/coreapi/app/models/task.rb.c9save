@@ -1,0 +1,1 @@
+{"ts":1349016267408,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Task < ActiveRecord::Base\n  belongs_to :user\n  attr_accessible :name\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":79}]],"length":79}
